@@ -18,7 +18,7 @@ stockEnsambles.forEach((producto) => {
     div.classList.add('producto')
     // Se ingresa al div para agregarle el contenido llamando a las porpiedades definidas en stockEnsambles.
     div.innerHTML = `
-    <img src=${producto.img} alt="">
+    <img src=${producto.img} class="img-fluid" alt="Computadora muy bonita, comprala :)">
     <h3 class="highlightedText">${producto.procesador}</h3>
     <p><strong class="darkHighlightedText">Socket:</strong> ${producto.socket}</p>
     <p><strong class="darkHighlightedText">Motherboard:</strong> ${producto.motherboard}</p>

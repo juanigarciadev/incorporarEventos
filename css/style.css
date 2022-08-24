@@ -54,6 +54,16 @@ body {
   border-radius: 5px;
 }
 
+.producto h3 {
+  font-size: 24px;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+.producto p {
+  margin-bottom: 0;
+}
+
 .carritoContenedorProductos {
   background-color: white;
 }
@@ -75,6 +85,8 @@ body {
   height: 30px;
   width: 150px;
   font-weight: 700;
+  font-size: 14px;
+  border: 0;
 }
 
 /* Estilos del botón "Agregar al carrito" al pasar por encima con el cursor */
@@ -83,4 +95,5 @@ body {
   color: white;
   transition: 0.3s;
   border: none;
+  box-shadow: 1px 2px 0.3px 0.3px rgba(0, 0, 0, 0.2);
 }
