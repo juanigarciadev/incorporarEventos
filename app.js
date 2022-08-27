@@ -33,7 +33,7 @@ stockEnsambles.forEach((producto) => {
 
     const botonCarrito = document.getElementById(`agregarCarrito${producto.id}`)
 
-    botonCarrito.onclick = () => agregarCarrito(producto.id)
+    botonCarrito.onclick = () => {agregarCarrito(producto.id),contadorCarrito.innerText = carrito.length}
 })
 
 
